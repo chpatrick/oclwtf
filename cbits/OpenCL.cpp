@@ -3,6 +3,7 @@
 #include <CL/cl.h>
 #include <cstdlib>
 #include <cstdio>
+#include <unistd.h>
 
 void listPlatforms() {
   char* info;
